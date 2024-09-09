@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font: normal normal 16px arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            font: normal bold 1.5em 'Times New Roman', serif;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(112, 112, 112);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.315);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 10px 0px;
+        }
+
+        aside {
+            background-color: rgb(156, 155, 155);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Titulo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum explicabo facere harum optio temporibus, iusto officiis fugiat debitis amet sit nostrum aut eius maiores odit ducimus numquam eaque nemo!</p>
+                <aside>Conteúdo Periférico</aside>
+            </article>
+            <article>
+                <h1>Titulo</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque cum debitis iusto molestias eum, quidem incidunt dolorum facilis doloremque quod maxime sint odio. Ducimus porro incidunt vel vero illo fugit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nostrum eius exercitationem atque ipsa totam dolore suscipit dolorem repudiandae doloremque eveniet aliquid corporis natus illo eligendi praesentium, sit magnam? Harum.</p>
+            </article>
+        </section>
+        <aside>Conteúdo Periférico</aside>
+    </main>
+    <footer>
+        Conteúdo do Rodapé
+    </footer>
+</body>
+</html>
